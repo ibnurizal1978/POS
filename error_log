@@ -1,0 +1,3452 @@
+[24-Jan-2025 20:31:09 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:31:09 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907061d5fd693e1d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:31:09 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:31:09 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:31:09 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:31:09 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:31:09 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:31:09 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:31:09 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:31:09 Asia/Jakarta] Processing product ID: 13, Quantity: 2
+[24-Jan-2025 20:31:09 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 2
+[24-Jan-2025 20:31:09 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:31:09 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:31:09 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:31:09 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:31:23 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:31:23 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 9070622f38c63e1d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:31:23 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:31:23 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:31:23 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:31:23 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:31:23 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:31:23 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:31:23 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:31:23 Asia/Jakarta] Processing product ID: 13, Quantity: 1
+[24-Jan-2025 20:31:23 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 1
+[24-Jan-2025 20:31:23 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:31:23 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:31:23 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:31:23 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:31:30 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:31:30 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 9070625a9a103e1d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:31:30 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:31:30 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:31:30 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:31:30 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:31:30 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:31:30 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:31:30 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:31:30 Asia/Jakarta] Processing product ID: 13, Quantity: 2
+[24-Jan-2025 20:31:30 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 2
+[24-Jan-2025 20:31:30 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:31:30 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:31:30 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:31:30 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:32:06 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:32:06 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 9070633bf9bb5fda-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:32:06 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:32:06 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:32:06 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:32:06 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:32:06 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:32:06 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:32:06 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:32:06 Asia/Jakarta] Processing product ID: 13, Quantity: 3
+[24-Jan-2025 20:32:06 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 3
+[24-Jan-2025 20:32:06 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:32:06 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:32:06 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:32:06 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:33:12 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:33:12 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907064dbba38ce5a-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:33:12 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:33:12 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:33:12 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:33:12 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:33:12 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:33:12 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:33:12 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:33:12 Asia/Jakarta] Processing product ID: 13, Quantity: 4
+[24-Jan-2025 20:33:12 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 4
+[24-Jan-2025 20:33:12 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:33:12 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:33:12 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:33:12 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:33:13 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907064deba72ce5a-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:33:13 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:33:13 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:33:13 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:33:13 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:33:13 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Processing product ID: 13, Quantity: 5
+[24-Jan-2025 20:33:13 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 5
+[24-Jan-2025 20:33:13 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:33:13 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:33:13 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:33:13 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:33:13 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907064e11912ce5a-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:33:13 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:33:13 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:33:13 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:33:13 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:33:13 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:33:13 Asia/Jakarta] Processing product ID: 13, Quantity: 6
+[24-Jan-2025 20:33:13 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 6
+[24-Jan-2025 20:33:13 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:33:13 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:33:13 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:33:13 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:33:14 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907064e3b917ce5a-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:33:14 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:33:14 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:33:14 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:33:14 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:33:14 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Processing product ID: 13, Quantity: 7
+[24-Jan-2025 20:33:14 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 7
+[24-Jan-2025 20:33:14 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:33:14 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:33:14 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:33:14 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:33:14 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907064e5ef3ace5a-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:33:14 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:33:14 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:33:14 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:33:14 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:33:14 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:33:14 Asia/Jakarta] Processing product ID: 13, Quantity: 8
+[24-Jan-2025 20:33:14 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 8
+[24-Jan-2025 20:33:14 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:33:14 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:33:14 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:33:14 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:33:15 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:33:15 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907064e8cec9ce5a-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:33:15 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:33:15 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:33:15 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:33:15 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:33:15 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:33:15 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:33:15 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:33:15 Asia/Jakarta] Processing product ID: 13, Quantity: 9
+[24-Jan-2025 20:33:15 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 9
+[24-Jan-2025 20:33:15 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:33:15 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:33:15 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:33:15 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:33:16 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:33:16 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907064f1af5ece5a-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:33:16 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:33:16 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:33:16 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:33:16 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:33:16 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:33:16 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:33:16 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:33:16 Asia/Jakarta] Processing product ID: 13, Quantity: 10
+[24-Jan-2025 20:33:16 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 10
+[24-Jan-2025 20:33:16 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:33:16 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:33:16 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:33:16 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:38:13 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:13 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706c337cd1d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:13 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:13 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:38:13 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:13 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:38:13 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:13 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:13 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:13 Asia/Jakarta] Processing product ID: 13, Quantity: 2
+[24-Jan-2025 20:38:13 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 2
+[24-Jan-2025 20:38:13 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 50000.00
+)
+
+[24-Jan-2025 20:38:13 Asia/Jakarta] Wholesale price found: 50000.00
+[24-Jan-2025 20:38:13 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 50000.00
+[24-Jan-2025 20:38:13 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 50000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:38:15 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:15 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706c3c6dded47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:15 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:15 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:38:15 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:15 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:38:15 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:15 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:15 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:15 Asia/Jakarta] Processing product ID: 13, Quantity: 3
+[24-Jan-2025 20:38:15 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 3
+[24-Jan-2025 20:38:15 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 45000.00
+)
+
+[24-Jan-2025 20:38:15 Asia/Jakarta] Wholesale price found: 45000.00
+[24-Jan-2025 20:38:15 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 45000.00
+[24-Jan-2025 20:38:15 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 45000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:38:18 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:18 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706c504cbdd47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:18 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:18 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:38:18 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:18 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:38:18 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:18 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:18 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:18 Asia/Jakarta] Processing product ID: 13, Quantity: 2
+[24-Jan-2025 20:38:18 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 2
+[24-Jan-2025 20:38:18 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 50000.00
+)
+
+[24-Jan-2025 20:38:18 Asia/Jakarta] Wholesale price found: 50000.00
+[24-Jan-2025 20:38:18 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 50000.00
+[24-Jan-2025 20:38:18 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 50000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:38:19 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:19 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706c557b54d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:19 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:19 Asia/Jakarta] ID from GET: 13
+[24-Jan-2025 20:38:19 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:19 Asia/Jakarta] Final ID: 13
+[24-Jan-2025 20:38:19 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:19 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:19 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:19 Asia/Jakarta] Processing product ID: 13, Quantity: 1
+[24-Jan-2025 20:38:19 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 1
+[24-Jan-2025 20:38:19 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 50000.00
+)
+
+[24-Jan-2025 20:38:19 Asia/Jakarta] Wholesale price found: 50000.00
+[24-Jan-2025 20:38:19 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 50000.00
+[24-Jan-2025 20:38:19 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 50000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:38:37 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:37 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706ccac807d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:37 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:37 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:38:37 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:37 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:38:37 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:37 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:37 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:37 Asia/Jakarta] Processing product ID: 6, Quantity: 2
+[24-Jan-2025 20:38:37 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 2
+[24-Jan-2025 20:38:37 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:38:37 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:38:37 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:38:37 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:38:39 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:39 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706cd3cd43d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:39 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:39 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:38:39 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:39 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:38:39 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:39 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:39 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:39 Asia/Jakarta] Processing product ID: 6, Quantity: 3
+[24-Jan-2025 20:38:39 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 3
+[24-Jan-2025 20:38:39 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:38:39 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:38:39 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:38:39 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:38:40 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:40 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706cda2fbcd47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:40 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:40 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:38:40 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:40 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:38:40 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:40 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:40 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:40 Asia/Jakarta] Processing product ID: 6, Quantity: 4
+[24-Jan-2025 20:38:40 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 4
+[24-Jan-2025 20:38:40 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:38:40 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:38:40 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:38:40 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:38:41 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:38:41 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706cdebdfbd47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:38:41 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:38:41 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:38:41 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:38:41 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:38:41 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:38:41 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:38:41 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:38:41 Asia/Jakarta] Processing product ID: 6, Quantity: 5
+[24-Jan-2025 20:38:41 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 5
+[24-Jan-2025 20:38:41 Asia/Jakarta] Wholesale price result: 
+[24-Jan-2025 20:38:41 Asia/Jakarta] Wholesale price found: null
+[24-Jan-2025 20:38:41 Asia/Jakarta] No wholesale price found, using regular price: 15000.00
+[24-Jan-2025 20:38:41 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[24-Jan-2025 20:39:00 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:00 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706d5aeb90d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:00 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:00 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:00 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:00 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:00 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:00 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:00 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:00 Asia/Jakarta] Processing product ID: 6, Quantity: 2
+[24-Jan-2025 20:39:00 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 2
+[24-Jan-2025 20:39:00 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 10000.00
+)
+
+[24-Jan-2025 20:39:00 Asia/Jakarta] Wholesale price found: 10000.00
+[24-Jan-2025 20:39:00 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 10000.00
+[24-Jan-2025 20:39:00 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 10000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:08 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:08 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706d88d988d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:08 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:08 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:08 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:08 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:08 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:08 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:08 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:08 Asia/Jakarta] Processing product ID: 6, Quantity: 1
+[24-Jan-2025 20:39:08 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 1
+[24-Jan-2025 20:39:08 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 10000.00
+)
+
+[24-Jan-2025 20:39:08 Asia/Jakarta] Wholesale price found: 10000.00
+[24-Jan-2025 20:39:08 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 10000.00
+[24-Jan-2025 20:39:08 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 10000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:11 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:11 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706d9fb832d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:11 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:11 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:11 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:11 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:11 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:11 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:11 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:11 Asia/Jakarta] Processing product ID: 6, Quantity: 2
+[24-Jan-2025 20:39:11 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 2
+[24-Jan-2025 20:39:11 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 10000.00
+)
+
+[24-Jan-2025 20:39:11 Asia/Jakarta] Wholesale price found: 10000.00
+[24-Jan-2025 20:39:11 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 10000.00
+[24-Jan-2025 20:39:11 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 10000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:13 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:13 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706da98edad47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:13 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:13 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:13 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:13 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:13 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:13 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:13 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:13 Asia/Jakarta] Processing product ID: 6, Quantity: 3
+[24-Jan-2025 20:39:13 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 3
+[24-Jan-2025 20:39:13 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:13 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:13 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:13 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:15 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:15 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706db468c5d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:15 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:15 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:15 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:15 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:15 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:15 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:15 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:15 Asia/Jakarta] Processing product ID: 6, Quantity: 4
+[24-Jan-2025 20:39:15 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 4
+[24-Jan-2025 20:39:15 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:15 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:15 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:15 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:17 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:17 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706dbf4a49d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:17 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:17 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:17 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:17 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:17 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:17 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:17 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:17 Asia/Jakarta] Processing product ID: 6, Quantity: 5
+[24-Jan-2025 20:39:17 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 5
+[24-Jan-2025 20:39:17 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:17 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:17 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:17 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:18 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:18 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706dc87d74d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:18 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:18 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:18 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:18 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:18 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:18 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:18 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:18 Asia/Jakarta] Processing product ID: 6, Quantity: 6
+[24-Jan-2025 20:39:18 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 6
+[24-Jan-2025 20:39:18 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:18 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:18 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:18 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:21 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:21 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706ddad8c1d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:21 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:21 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:21 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:21 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:21 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:21 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:21 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:21 Asia/Jakarta] Processing product ID: 6, Quantity: 7
+[24-Jan-2025 20:39:21 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 7
+[24-Jan-2025 20:39:21 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:21 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:21 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:21 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:45 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:45 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706e728cd5d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:45 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:45 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:45 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:45 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:45 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:45 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:45 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:45 Asia/Jakarta] Processing product ID: 6, Quantity: 8
+[24-Jan-2025 20:39:45 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 8
+[24-Jan-2025 20:39:45 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:45 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:45 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:45 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:48 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:48 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706e835f7dd47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:48 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:48 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:48 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:48 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:48 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:48 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:48 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:48 Asia/Jakarta] Processing product ID: 6, Quantity: 9
+[24-Jan-2025 20:39:48 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 9
+[24-Jan-2025 20:39:48 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:48 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:48 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:48 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:49 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:49 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706e8b78e5d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:49 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:49 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:49 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:49 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:49 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:49 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:49 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:49 Asia/Jakarta] Processing product ID: 6, Quantity: 10
+[24-Jan-2025 20:39:49 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 10
+[24-Jan-2025 20:39:49 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:49 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:49 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:49 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 20:39:50 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 20:39:50 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90706e8fef65d47d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 20:39:50 Asia/Jakarta] Raw input: 
+[24-Jan-2025 20:39:50 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 20:39:50 Asia/Jakarta] Barcode: 
+[24-Jan-2025 20:39:50 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 20:39:50 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 20:39:50 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 20:39:50 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 20:39:50 Asia/Jakarta] Processing product ID: 6, Quantity: 11
+[24-Jan-2025 20:39:50 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 11
+[24-Jan-2025 20:39:50 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 20:39:50 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 20:39:50 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 20:39:50 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 21:02:24 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 21:02:24 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90708f9e3e09f8f6-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 21:02:24 Asia/Jakarta] Raw input: 
+[24-Jan-2025 21:02:24 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 21:02:24 Asia/Jakarta] Barcode: 
+[24-Jan-2025 21:02:24 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 21:02:24 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 21:02:24 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 21:02:24 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 21:02:24 Asia/Jakarta] Processing product ID: 6, Quantity: 2
+[24-Jan-2025 21:02:24 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 2
+[24-Jan-2025 21:02:24 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 10000.00
+)
+
+[24-Jan-2025 21:02:24 Asia/Jakarta] Wholesale price found: 10000.00
+[24-Jan-2025 21:02:24 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 10000.00
+[24-Jan-2025 21:02:24 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 10000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 21:02:27 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 21:02:27 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 90708fb1ea94f8f6-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 21:02:27 Asia/Jakarta] Raw input: 
+[24-Jan-2025 21:02:27 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 21:02:27 Asia/Jakarta] Barcode: 
+[24-Jan-2025 21:02:27 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 21:02:27 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 21:02:27 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 21:02:27 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 21:02:27 Asia/Jakarta] Processing product ID: 6, Quantity: 3
+[24-Jan-2025 21:02:27 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 3
+[24-Jan-2025 21:02:27 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 21:02:27 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 21:02:27 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 21:02:27 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 21:02:40 Asia/Jakarta] Request Method: GET
+[24-Jan-2025 21:02:40 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907090058bfef8f6-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=2d4b81ad0795825b605cc973450af73a
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[24-Jan-2025 21:02:40 Asia/Jakarta] Raw input: 
+[24-Jan-2025 21:02:40 Asia/Jakarta] ID from GET: 6
+[24-Jan-2025 21:02:40 Asia/Jakarta] Barcode: 
+[24-Jan-2025 21:02:40 Asia/Jakarta] Final ID: 6
+[24-Jan-2025 21:02:40 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[24-Jan-2025 21:02:40 Asia/Jakarta] Params: Array
+(
+    [0] => 6
+    [1] => 1
+)
+
+[24-Jan-2025 21:02:40 Asia/Jakarta] Query result: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+)
+
+[24-Jan-2025 21:02:40 Asia/Jakarta] Processing product ID: 6, Quantity: 3
+[24-Jan-2025 21:02:40 Asia/Jakarta] Checking wholesale price for product_id: 6, quantity: 3
+[24-Jan-2025 21:02:40 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 8000.00
+)
+
+[24-Jan-2025 21:02:40 Asia/Jakarta] Wholesale price found: 8000.00
+[24-Jan-2025 21:02:40 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 8000.00
+[24-Jan-2025 21:02:40 Asia/Jakarta] Final product data: Array
+(
+    [id] => 6
+    [store_id] => 1
+    [name] => Pringles original
+    [barcode] => 8886467100017
+    [cost_price] => 10000.00
+    [selling_price] => 8000.00
+    [unit_id] => 1
+    [category_id] => 1
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:51:09
+    [updated_at] => 2025-01-24 20:19:12
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[24-Jan-2025 21:02:41 Asia/Jakarta] Inserting stock history with values:
+[24-Jan-2025 21:02:41 Asia/Jakarta] product_id: 6
+[24-Jan-2025 21:02:41 Asia/Jakarta] type: out
+[24-Jan-2025 21:02:41 Asia/Jakarta] quantity: 3
+[24-Jan-2025 21:02:41 Asia/Jakarta] description: Penjualan #20250124166959
+[24-Jan-2025 21:02:41 Asia/Jakarta] user_id: 1
+[24-Jan-2025 21:02:41 Asia/Jakarta] store_id: 1
+[24-Jan-2025 21:02:41 Asia/Jakarta] PHP Warning:  Use of undefined constant console - assumed 'console' (this will throw an Error in a future version of PHP) in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[24-Jan-2025 21:02:41 Asia/Jakarta] PHP Warning:  log() expects parameter 1 to be float, object given in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[26-Jan-2025 09:06:18 Asia/Jakarta] Request Method: GET
+[26-Jan-2025 09:06:18 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907cf1664c093d8d-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [User-Agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [sec-fetch-dest] => empty
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-mode] => cors
+    [sec-fetch-site] => same-origin
+    [cf-connecting-ip] => 203.128.85.28
+    [Accept] => */*
+    [sec-ch-ua-mobile] => ?0
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Windows"
+    [Accept-Language] => en-US,en;q=0.9
+    [sec-ch-ua] => "Not A(Brand";v="8", "Chromium";v="132"
+    [Cookie] => PHPSESSID=e805772881fb189dfcd42817d8efb839
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[26-Jan-2025 09:06:18 Asia/Jakarta] Raw input: 
+[26-Jan-2025 09:06:18 Asia/Jakarta] ID from GET: 13
+[26-Jan-2025 09:06:18 Asia/Jakarta] Barcode: 
+[26-Jan-2025 09:06:18 Asia/Jakarta] Final ID: 13
+[26-Jan-2025 09:06:18 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[26-Jan-2025 09:06:18 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[26-Jan-2025 09:06:18 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+)
+
+[26-Jan-2025 09:06:18 Asia/Jakarta] Processing product ID: 13, Quantity: 1
+[26-Jan-2025 09:06:18 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 1
+[26-Jan-2025 09:06:18 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 50000.00
+)
+
+[26-Jan-2025 09:06:18 Asia/Jakarta] Wholesale price found: 50000.00
+[26-Jan-2025 09:06:18 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 50000.00
+[26-Jan-2025 09:06:18 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 50000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 10
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-24 20:18:52
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[26-Jan-2025 09:06:35 Asia/Jakarta] Inserting stock history with values:
+[26-Jan-2025 09:06:35 Asia/Jakarta] product_id: 13
+[26-Jan-2025 09:06:35 Asia/Jakarta] type: out
+[26-Jan-2025 09:06:35 Asia/Jakarta] quantity: 1
+[26-Jan-2025 09:06:35 Asia/Jakarta] description: Penjualan #20250126551278
+[26-Jan-2025 09:06:35 Asia/Jakarta] user_id: 1
+[26-Jan-2025 09:06:35 Asia/Jakarta] store_id: 1
+[26-Jan-2025 09:06:35 Asia/Jakarta] PHP Warning:  Use of undefined constant console - assumed 'console' (this will throw an Error in a future version of PHP) in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[26-Jan-2025 09:06:35 Asia/Jakarta] PHP Warning:  log() expects parameter 1 to be float, object given in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[26-Jan-2025 10:02:56 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/transaction.php on line 683
+[26-Jan-2025 10:02:56 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/transaction.php on line 683
+[26-Jan-2025 10:02:56 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/transaction.php on line 684
+[26-Jan-2025 10:02:56 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/transaction.php on line 684
+[26-Jan-2025 10:02:56 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/transaction.php on line 685
+[26-Jan-2025 10:02:56 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/transaction.php on line 685
+[26-Jan-2025 10:03:11 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/transaction.php on line 683
+[26-Jan-2025 10:03:11 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/transaction.php on line 683
+[26-Jan-2025 10:03:11 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/transaction.php on line 684
+[26-Jan-2025 10:03:11 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/transaction.php on line 684
+[26-Jan-2025 10:03:11 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/transaction.php on line 685
+[26-Jan-2025 10:03:11 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/transaction.php on line 685
+[26-Jan-2025 10:24:25 Asia/Jakarta] Request Method: GET
+[26-Jan-2025 10:24:25 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907d63d19d9f4053-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Content-Type] => application/json
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=7c137d5b5a5d3d18fd1e293d4a7fd87f
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[26-Jan-2025 10:24:25 Asia/Jakarta] Raw input: 
+[26-Jan-2025 10:24:25 Asia/Jakarta] ID from GET: 13
+[26-Jan-2025 10:24:25 Asia/Jakarta] Barcode: 
+[26-Jan-2025 10:24:25 Asia/Jakarta] Final ID: 13
+[26-Jan-2025 10:24:25 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[26-Jan-2025 10:24:25 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[26-Jan-2025 10:24:25 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 9
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-26 09:06:35
+    [unit_name] => Pcs
+)
+
+[26-Jan-2025 10:24:25 Asia/Jakarta] Processing product ID: 13, Quantity: 2
+[26-Jan-2025 10:24:25 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 2
+[26-Jan-2025 10:24:25 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 50000.00
+)
+
+[26-Jan-2025 10:24:25 Asia/Jakarta] Wholesale price found: 50000.00
+[26-Jan-2025 10:24:25 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 50000.00
+[26-Jan-2025 10:24:25 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 50000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 9
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-26 09:06:35
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Request Method: GET
+[26-Jan-2025 10:24:50 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907d646fdc1c4053-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=7c137d5b5a5d3d18fd1e293d4a7fd87f
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Raw input: 
+[26-Jan-2025 10:24:50 Asia/Jakarta] ID from GET: 13
+[26-Jan-2025 10:24:50 Asia/Jakarta] Barcode: 
+[26-Jan-2025 10:24:50 Asia/Jakarta] Final ID: 13
+[26-Jan-2025 10:24:50 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[26-Jan-2025 10:24:50 Asia/Jakarta] Params: Array
+(
+    [0] => 13
+    [1] => 1
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Query result: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 15000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 9
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-26 09:06:35
+    [unit_name] => Pcs
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Processing product ID: 13, Quantity: 2
+[26-Jan-2025 10:24:50 Asia/Jakarta] Checking wholesale price for product_id: 13, quantity: 2
+[26-Jan-2025 10:24:50 Asia/Jakarta] Wholesale price result: Array
+(
+    [price] => 50000.00
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Wholesale price found: 50000.00
+[26-Jan-2025 10:24:50 Asia/Jakarta] Applying wholesale price. Original: 15000.00, Wholesale: 50000.00
+[26-Jan-2025 10:24:50 Asia/Jakarta] Final product data: Array
+(
+    [id] => 13
+    [store_id] => 1
+    [name] => Revlon nail remover
+    [barcode] => 8999908397300
+    [cost_price] => 10000.00
+    [selling_price] => 50000.00
+    [unit_id] => 1
+    [category_id] => 20
+    [stock] => 9
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:22
+    [updated_at] => 2025-01-26 09:06:35
+    [unit_name] => Pcs
+    [original_price] => 15000.00
+    [is_wholesale] => 1
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Request Method: GET
+[26-Jan-2025 10:24:50 Asia/Jakarta] Request Headers: Array
+(
+    [Host] => ordermatix.com
+    [cf-ray] => 907d64717d3c4053-SIN
+    [X-Forwarded-For] => 203.128.85.28
+    [sec-ch-ua-mobile] => ?1
+    [priority] => u=1, i
+    [Accept-Encoding] => gzip, br
+    [cf-ipcountry] => ID
+    [x-forwarded-proto] => https
+    [Accept-Language] => en-US,en;q=0.9,id-ID;q=0.8,id;q=0.7
+    [Referer] => https://ordermatix.com/pos/v3/transaction
+    [cf-visitor] => {"scheme":"https"}
+    [sec-fetch-dest] => empty
+    [sec-fetch-mode] => cors
+    [cf-connecting-ip] => 203.128.85.28
+    [sec-fetch-site] => same-origin
+    [Accept] => */*
+    [cdn-loop] => cloudflare; loops=1
+    [sec-ch-ua-platform] => "Android"
+    [User-Agent] => Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36
+    [sec-ch-ua] => "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+    [dnt] => 1
+    [Cookie] => _ga=GA1.1.731532007.1698385642; _ga_0R41NQQ7WT=GS1.1.1737705797.105.0.1737705797.0.0.0; PHPSESSID=7c137d5b5a5d3d18fd1e293d4a7fd87f
+    [X-HTTPS] => 1
+    [Content-Length] => 0
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Raw input: 
+[26-Jan-2025 10:24:50 Asia/Jakarta] ID from GET: 14
+[26-Jan-2025 10:24:50 Asia/Jakarta] Barcode: 
+[26-Jan-2025 10:24:50 Asia/Jakarta] Final ID: 14
+[26-Jan-2025 10:24:50 Asia/Jakarta] Query: SELECT p.*, u.name as unit_name 
+    FROM products p
+    LEFT JOIN units u ON p.unit_id = u.id
+    WHERE (p.id = ?) AND p.store_id = ?
+[26-Jan-2025 10:24:50 Asia/Jakarta] Params: Array
+(
+    [0] => 14
+    [1] => 1
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Query result: Array
+(
+    [id] => 14
+    [store_id] => 1
+    [name] => Cotton buds baby
+    [barcode] => 8991003065122
+    [cost_price] => 5000.00
+    [selling_price] => 10000.00
+    [unit_id] => 1
+    [category_id] => 11
+    [stock] => 5
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:55
+    [updated_at] => 2025-01-23 11:04:02
+    [unit_name] => Pcs
+)
+
+[26-Jan-2025 10:24:50 Asia/Jakarta] Processing product ID: 14, Quantity: 1
+[26-Jan-2025 10:24:50 Asia/Jakarta] Checking wholesale price for product_id: 14, quantity: 1
+[26-Jan-2025 10:24:50 Asia/Jakarta] Wholesale price result: 
+[26-Jan-2025 10:24:50 Asia/Jakarta] Wholesale price found: null
+[26-Jan-2025 10:24:50 Asia/Jakarta] No wholesale price found, using regular price: 10000.00
+[26-Jan-2025 10:24:50 Asia/Jakarta] Final product data: Array
+(
+    [id] => 14
+    [store_id] => 1
+    [name] => Cotton buds baby
+    [barcode] => 8991003065122
+    [cost_price] => 5000.00
+    [selling_price] => 10000.00
+    [unit_id] => 1
+    [category_id] => 11
+    [stock] => 5
+    [min_stock] => 0
+    [is_active] => 1
+    [created_at] => 2025-01-18 19:57:55
+    [updated_at] => 2025-01-23 11:04:02
+    [unit_name] => Pcs
+    [is_wholesale] => 
+)
+
+[26-Jan-2025 10:24:51 Asia/Jakarta] Inserting stock history with values:
+[26-Jan-2025 10:24:51 Asia/Jakarta] product_id: 13
+[26-Jan-2025 10:24:51 Asia/Jakarta] type: out
+[26-Jan-2025 10:24:51 Asia/Jakarta] quantity: 2
+[26-Jan-2025 10:24:51 Asia/Jakarta] description: Penjualan #20250126208186
+[26-Jan-2025 10:24:51 Asia/Jakarta] user_id: 1
+[26-Jan-2025 10:24:51 Asia/Jakarta] store_id: 1
+[26-Jan-2025 10:24:51 Asia/Jakarta] PHP Warning:  Use of undefined constant console - assumed 'console' (this will throw an Error in a future version of PHP) in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[26-Jan-2025 10:24:51 Asia/Jakarta] PHP Warning:  log() expects parameter 1 to be float, object given in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[26-Jan-2025 10:24:51 Asia/Jakarta] Inserting stock history with values:
+[26-Jan-2025 10:24:51 Asia/Jakarta] product_id: 14
+[26-Jan-2025 10:24:51 Asia/Jakarta] type: out
+[26-Jan-2025 10:24:51 Asia/Jakarta] quantity: 1
+[26-Jan-2025 10:24:51 Asia/Jakarta] description: Penjualan #20250126208186
+[26-Jan-2025 10:24:51 Asia/Jakarta] user_id: 1
+[26-Jan-2025 10:24:51 Asia/Jakarta] store_id: 1
+[26-Jan-2025 10:24:51 Asia/Jakarta] PHP Warning:  Use of undefined constant console - assumed 'console' (this will throw an Error in a future version of PHP) in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[26-Jan-2025 10:24:51 Asia/Jakarta] PHP Warning:  log() expects parameter 1 to be float, object given in /home/ordb6183/public_html/pos/v3/stock-update.php on line 75
+[26-Jan-2025 10:24:51 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.name' in 'field list' in /home/ordb6183/public_html/pos/v3/print.php:25
+Stack trace:
+#0 /home/ordb6183/public_html/pos/v3/print.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ordb6183/public_html/pos/v3/print.php on line 25
+[26-Jan-2025 10:26:09 Asia/Jakarta] PHP Notice:  Undefined index: store_promo in /home/ordb6183/public_html/pos/v3/print.php on line 99
+[26-Jan-2025 10:42:42 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/store-settings.php on line 32
+[26-Jan-2025 10:42:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/store-settings.php on line 32
+[26-Jan-2025 10:42:42 Asia/Jakarta] PHP Notice:  Undefined variable: store in /home/ordb6183/public_html/pos/v3/store-settings.php on line 60
+[26-Jan-2025 10:42:42 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/ordb6183/public_html/pos/v3/store-settings.php on line 60
+[28-Jan-2025 12:20:37 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:38 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:39 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:41 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:43 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:44 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:44 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:54 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[28-Jan-2025 12:20:55 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 07:24:24 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 07:24:25 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 07:24:31 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 07:24:46 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 17:44:52 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 17:45:09 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 17:45:10 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 17:45:16 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 17:45:17 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 17:45:17 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 20:59:34 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58
+[30-Jan-2025 20:59:35 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/transaction.php on line 58

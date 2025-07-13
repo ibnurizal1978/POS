@@ -1,0 +1,15 @@
+[19-Jan-2025 13:06:28 Asia/Jakarta] PHP Warning:  require_once(includes/db.php): failed to open stream: No such file or directory in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 2
+[19-Jan-2025 13:06:28 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required 'includes/db.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 2
+[19-Jan-2025 13:07:22 Asia/Jakarta] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 59
+[19-Jan-2025 13:07:22 Asia/Jakarta] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 59
+[19-Jan-2025 13:11:54 Asia/Jakarta] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 22
+[19-Jan-2025 13:11:54 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 31
+[19-Jan-2025 13:12:02 Asia/Jakarta] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 22
+[19-Jan-2025 13:12:02 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 31
+[19-Jan-2025 13:12:27 Asia/Jakarta] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 22
+[19-Jan-2025 13:12:27 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 31
+[19-Jan-2025 13:15:38 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 31
+[19-Jan-2025 13:16:09 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 31
+[19-Jan-2025 13:18:29 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 31
+[19-Jan-2025 13:20:57 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type bool in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 31
+[19-Jan-2025 14:01:29 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/ordb6183/public_html/pos/v3/auth/forgot-password.php on line 51
